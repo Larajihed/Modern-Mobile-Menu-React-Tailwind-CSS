@@ -12,7 +12,7 @@ export default function MenuItem(props) {
     transition: 'transform 0.3s ease-in-out',
     transform: props.isSelected ? 'translateY(-32px)' : 'translateY(0)',
     position: 'absolute', // Add absolute positioning
-
+ 
 
   };
 

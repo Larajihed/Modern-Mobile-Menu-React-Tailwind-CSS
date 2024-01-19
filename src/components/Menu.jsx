@@ -6,7 +6,6 @@ export default function Menu() {
   const [selectedMenuItem, setSelectedMenuItem] = useState("Home");
 
   const handleMenuItemClick = (itemName) => {
-    console.log(itemName)
     setSelectedMenuItem(itemName);
   };
 
