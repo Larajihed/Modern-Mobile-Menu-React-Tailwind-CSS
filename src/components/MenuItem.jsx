@@ -40,7 +40,7 @@ export default function MenuItem(props) {
         />
       </div>
       <div
-        className={`menu-name-container ${props.isSelected ? '' : 'text-red-700'}`}
+        className={`menu-name-container ${props.isSelected ? '' : 'text-red-800'}`}
         style={nameContainerStyles}
       >
         <p>{props.name}</p>
